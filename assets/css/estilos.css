@@ -1,0 +1,66 @@
+body {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.container-fluid {
+  background-color: #373a3c;
+  color: #ffffff;
+}
+
+#logo_ricomida {
+  font-family: "Lobster", sans-serif;
+  font-size: 37px;
+  color: #ffffff;
+  margin: 0 47px 0 47px;
+}
+
+a {
+  color: #ffffff;
+}
+
+ul {
+  margin-left: 72%;
+  margin-right: 10%;
+  text-align: right;
+}
+
+#navbarSupportedContent {
+  border-color: #777777;
+}
+
+@media only screen and (max-width: 600px) {
+  /*esto hace que al llegar a los 800px el texto de la presentación se alinee*/
+  .centrado {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .muestraTit {
+    text-align: center;
+  }
+
+  h3 {
+    text-aligne: center;
+    font-size: larger;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #carouselExampleIndicators {
+    display: none;
+  }
+
+  .line2 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 00px) {
+  /*esto hace que al llegar a los 800px el texto se alinee*/
+  .centrado {
+    text-align: center;
+  }
+}
